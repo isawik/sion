@@ -2,42 +2,74 @@
 <html lang="es-mx">
 <head>
 	<meta charset="UTF-8">
-	<link rel="shortcut icon" href="{{ STATIC_URL }}img/favicon.ico" />
+	<link rel="shortcut icon" href="/static/img/favicon.ico" />
    	<meta name="viewport" content="width=device-width, maximum-scale=1">
 	<title>Comunidad Cristiana Sion A.R. - Donde vive el Amor</title>
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:900,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/static/css/base.css">
+
 </head>
 <body>
 
 	<header>
 
-		<figure class="logo"><img src="/static/img/logo.gif"></figure>	
+		<figure class="logo centro">
+			<img src="/static/img/logo.gif">
+		</figure>	
 
 	</header>
 
 	<section class="contenedor">
 
-		<div class="photo">
-			<figure class="pastores col">
-				<img src="/media/photos/pastores.png">
-			</figure>
-			<div class="col welcome">
-				<h1>Bienvenidos a casa <br> donde vive el amor</h1>
-			</div>
-
-		</div>	
-
-		<div class="info">
-
+		<div class="index-background">
+			    <video autoplay="" muted="" loop="">
+			      	<source src="https://s3.amazonaws.com/icalia/assets/img/loop.mp4">
+			    </video>
+				<div class="container">
+				    <div class="intro-content">
+				    	<h1 class="big-header">Bienvenidos a Casa Donde Vive el Amor.</h1>
+				    </div>
+				</div>
+		</div>
+	</section>
+	<section>
+		<div class="infos">
 			<div class="schedule">
 				<p>Reunion General: 9:30AM y 7:00PM</p>
 				<p>Miercoles de Discipulado: 7:00PM</p>
 			</div>
-
 		</div>
-		
-
 	</section>
+	
+	<footer>
+
+		<section class="contacto">
+			<h4 class="title">Contacto</h4>
+			<div class="info">
+
+				<p class="correo"> Correo: <a href="mailto:contacto@ccsion.org">contacto@ccsion.org</a></p>
+				<p class="telefono"> Teléfono: <span class="numero">(0133) 3644-1773 y (0133) 36432740 </span></p>
+						
+			</div>
+		</section>
+
+		<aside class="socialmedia">
+			<h4 class="title">Redes Sociales</h4>
+			<div class="network">
+				<a href="https://www.facebook.com/comunidadcristianasion" target="_blank">
+					<span class="facebook"></span>
+				</a>
+				<a href="http://instagram.com/cc.sion" target="_blank">
+					<span class="instagram"></span>
+				</a>
+				<a href="https://twitter.com/ccsion" target="_blank">
+					<span class="twitter"></span>
+				</a>
+			</div>
+		</aside>
+
+	</footer>
 
 
 </body>
